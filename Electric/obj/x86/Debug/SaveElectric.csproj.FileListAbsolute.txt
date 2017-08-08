@@ -1,0 +1,10 @@
+G:\visual studio 2010\Projects\HttpClient_1\Electric\obj\x86\Debug\SaveElectric.csprojResolveAssemblyReference.cache
+G:\visual studio 2010\Projects\HttpClient_1\Electric\bin\Debug\Electric.exe
+G:\visual studio 2010\Projects\HttpClient_1\Electric\bin\Debug\Electric.pdb
+G:\visual studio 2010\Projects\HttpClient_1\Electric\bin\Debug\HttpClient_1.exe
+G:\visual studio 2010\Projects\HttpClient_1\Electric\bin\Debug\System.Net.Http.dll
+G:\visual studio 2010\Projects\HttpClient_1\Electric\bin\Debug\log4net.dll
+G:\visual studio 2010\Projects\HttpClient_1\Electric\bin\Debug\HttpClient_1.pdb
+G:\visual studio 2010\Projects\HttpClient_1\Electric\bin\Debug\System.Net.Http.xml
+G:\visual studio 2010\Projects\HttpClient_1\Electric\obj\x86\Debug\Electric.exe
+G:\visual studio 2010\Projects\HttpClient_1\Electric\obj\x86\Debug\Electric.pdb

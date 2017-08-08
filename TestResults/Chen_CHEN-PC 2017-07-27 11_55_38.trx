@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="95a6e5f9-fb24-4e71-a340-895bca450c2c" name="Chen@CHEN-PC 2017-07-27 11:55:38" runUser="Chen-PC\Chen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="ad387e9f-6f3d-4f88-9b41-251c8c7fd886">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Chen_CHEN-PC 2017-07-27 11_55_38">
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Bcl.1.1.10\lib\net40\System.IO.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.Primitives.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.Extensions.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Bcl.1.1.10\lib\net40\System.Threading.Tasks.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\HttpClient_1\bin\Debug\HttpClient_1.exe" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Bcl.1.1.10\lib\net40\System.Runtime.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-07-27T11:55:38.4880755+08:00" queuing="2017-07-27T11:55:39.9311580+08:00" start="2017-07-27T11:55:39.9421586+08:00" finish="2017-07-27T11:55:40.3291808+08:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InitTest" storage="g:\visual studio 2010\projects\httpclient_1\testproject2\bin\debug\testproject2.dll" id="f6cbb4ad-3888-3ce1-dfa5-844b821e0be9">
+      <Execution id="486bf163-8b09-4b1c-b96f-36e736edc324" />
+      <TestMethod codeBase="G:/visual studio 2010/Projects/HttpClient_1/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.handleTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f6cbb4ad-3888-3ce1-dfa5-844b821e0be9" executionId="486bf163-8b09-4b1c-b96f-36e736edc324" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="486bf163-8b09-4b1c-b96f-36e736edc324" testId="f6cbb4ad-3888-3ce1-dfa5-844b821e0be9" testName="InitTest" computerName="CHEN-PC" duration="00:00:00.0666026" startTime="2017-07-27T11:55:39.9451588+08:00" endTime="2017-07-27T11:55:40.3131799+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="486bf163-8b09-4b1c-b96f-36e736edc324">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 TestProject2.handleTest.InitTest() 位置 G:\visual studio 2010\Projects\HttpClient_1\TestProject2\handleTest.cs:行号 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

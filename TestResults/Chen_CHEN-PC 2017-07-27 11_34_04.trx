@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a01e6c45-4ca6-4c38-9662-c39ccd0c3e14" name="Chen@CHEN-PC 2017-07-27 11:34:04" runUser="Chen-PC\Chen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="ad387e9f-6f3d-4f88-9b41-251c8c7fd886">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Chen_CHEN-PC 2017-07-27 11_34_04">
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Bcl.1.1.10\lib\net40\System.IO.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.Primitives.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.Extensions.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Bcl.1.1.10\lib\net40\System.Threading.Tasks.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\HttpClient_1\bin\Debug\HttpClient_1.exe" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="G:\visual studio 2010\Projects\HttpClient_1\packages\Microsoft.Bcl.1.1.10\lib\net40\System.Runtime.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-07-27T11:34:04.6910745+08:00" queuing="2017-07-27T11:34:04.8880858+08:00" start="2017-07-27T11:34:04.9270880+08:00" finish="2017-07-27T11:34:05.5231221+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" error="0" failed="4" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoginTest" storage="g:\visual studio 2010\projects\httpclient_1\testproject2\bin\debug\testproject2.dll" id="63925294-bcd6-6039-babb-ee866b17b172">
+      <Execution id="3a7c3748-5416-40c1-843e-8426c37c6dfe" />
+      <TestMethod codeBase="G:/visual studio 2010/Projects/HttpClient_1/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.handleTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest" />
+    </UnitTest>
+    <UnitTest name="GetWarningTotalDetailTest" storage="g:\visual studio 2010\projects\httpclient_1\testproject2\bin\debug\testproject2.dll" id="c9c136c5-93d6-b02d-37d2-87c2a061fbb4">
+      <Execution id="2ecc29c9-900c-4d79-8fcb-0084aceaffad" />
+      <TestMethod codeBase="G:/visual studio 2010/Projects/HttpClient_1/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.handleTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetWarningTotalDetailTest" />
+    </UnitTest>
+    <UnitTest name="GetCurrentWarningsTest" storage="g:\visual studio 2010\projects\httpclient_1\testproject2\bin\debug\testproject2.dll" id="2654ccdb-363a-3d19-9c54-f518ff1f16a3">
+      <Execution id="8655eee5-8cb6-4398-aad0-d6aff3fd5013" />
+      <TestMethod codeBase="G:/visual studio 2010/Projects/HttpClient_1/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.handleTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCurrentWarningsTest" />
+    </UnitTest>
+    <UnitTest name="GetElectricTest" storage="g:\visual studio 2010\projects\httpclient_1\testproject2\bin\debug\testproject2.dll" id="79c69169-b6d2-d128-6c0c-135f07f9810d">
+      <Execution id="a6884e9b-56df-4e18-8539-387d6202b329" />
+      <TestMethod codeBase="G:/visual studio 2010/Projects/HttpClient_1/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.handleTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetElectricTest" />
+    </UnitTest>
+    <UnitTest name="InitTest" storage="g:\visual studio 2010\projects\httpclient_1\testproject2\bin\debug\testproject2.dll" id="f6cbb4ad-3888-3ce1-dfa5-844b821e0be9">
+      <Execution id="62b7ec76-e8a4-4028-a63e-b1c470d95d79" />
+      <TestMethod codeBase="G:/visual studio 2010/Projects/HttpClient_1/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.handleTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2654ccdb-363a-3d19-9c54-f518ff1f16a3" executionId="8655eee5-8cb6-4398-aad0-d6aff3fd5013" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63925294-bcd6-6039-babb-ee866b17b172" executionId="3a7c3748-5416-40c1-843e-8426c37c6dfe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79c69169-b6d2-d128-6c0c-135f07f9810d" executionId="a6884e9b-56df-4e18-8539-387d6202b329" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9c136c5-93d6-b02d-37d2-87c2a061fbb4" executionId="2ecc29c9-900c-4d79-8fcb-0084aceaffad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6cbb4ad-3888-3ce1-dfa5-844b821e0be9" executionId="62b7ec76-e8a4-4028-a63e-b1c470d95d79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8655eee5-8cb6-4398-aad0-d6aff3fd5013" testId="2654ccdb-363a-3d19-9c54-f518ff1f16a3" testName="GetCurrentWarningsTest" computerName="CHEN-PC" duration="00:00:00.0749187" startTime="2017-07-27T11:34:04.9360885+08:00" endTime="2017-07-27T11:34:05.4201162+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8655eee5-8cb6-4398-aad0-d6aff3fd5013">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;&gt;，实际为: &lt;System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HttpClient_1.handle.GetCurrentWarnings() 位置 G:\visual studio 2010\Projects\HttpClient_1\HttpClient_1\handle.cs:行号 77&gt;。</Message>
+          <StackTrace>   在 TestProject2.handleTest.GetCurrentWarningsTest() 位置 G:\visual studio 2010\Projects\HttpClient_1\TestProject2\handleTest.cs:行号 130
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a7c3748-5416-40c1-843e-8426c37c6dfe" testId="63925294-bcd6-6039-babb-ee866b17b172" testName="LoginTest" computerName="CHEN-PC" duration="00:00:00.0055774" startTime="2017-07-27T11:34:05.4221163+08:00" endTime="2017-07-27T11:34:05.4331170+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a7c3748-5416-40c1-843e-8426c37c6dfe">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;&gt;，实际为: &lt;System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HttpClient_1.handle.Login() 位置 G:\visual studio 2010\Projects\HttpClient_1\HttpClient_1\handle.cs:行号 43&gt;。</Message>
+          <StackTrace>   在 TestProject2.handleTest.LoginTest() 位置 G:\visual studio 2010\Projects\HttpClient_1\TestProject2\handleTest.cs:行号 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a6884e9b-56df-4e18-8539-387d6202b329" testId="79c69169-b6d2-d128-6c0c-135f07f9810d" testName="GetElectricTest" computerName="CHEN-PC" duration="00:00:00.0041514" startTime="2017-07-27T11:34:05.4351171+08:00" endTime="2017-07-27T11:34:05.4451176+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6884e9b-56df-4e18-8539-387d6202b329">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;&gt;，实际为: &lt;System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HttpClient_1.handle.GetElectric() 位置 G:\visual studio 2010\Projects\HttpClient_1\HttpClient_1\handle.cs:行号 148&gt;。</Message>
+          <StackTrace>   在 TestProject2.handleTest.GetElectricTest() 位置 G:\visual studio 2010\Projects\HttpClient_1\TestProject2\handleTest.cs:行号 116
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2ecc29c9-900c-4d79-8fcb-0084aceaffad" testId="c9c136c5-93d6-b02d-37d2-87c2a061fbb4" testName="GetWarningTotalDetailTest" computerName="CHEN-PC" duration="00:00:00.0051079" startTime="2017-07-27T11:34:05.4471178+08:00" endTime="2017-07-27T11:34:05.4571183+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ecc29c9-900c-4d79-8fcb-0084aceaffad">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;&gt;，实际为: &lt;System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HttpClient_1.handle.GetWarningTotalDetail() 位置 G:\visual studio 2010\Projects\HttpClient_1\HttpClient_1\handle.cs:行号 113&gt;。</Message>
+          <StackTrace>   在 TestProject2.handleTest.GetWarningTotalDetailTest() 位置 G:\visual studio 2010\Projects\HttpClient_1\TestProject2\handleTest.cs:行号 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62b7ec76-e8a4-4028-a63e-b1c470d95d79" testId="f6cbb4ad-3888-3ce1-dfa5-844b821e0be9" testName="InitTest" computerName="CHEN-PC" duration="00:00:00.0350455" startTime="2017-07-27T11:34:05.4591184+08:00" endTime="2017-07-27T11:34:05.4991207+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62b7ec76-e8a4-4028-a63e-b1c470d95d79">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 TestProject2.handleTest.InitTest() 位置 G:\visual studio 2010\Projects\HttpClient_1\TestProject2\handleTest.cs:行号 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
